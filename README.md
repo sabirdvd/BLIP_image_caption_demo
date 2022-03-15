@@ -7,8 +7,11 @@ conda create -n yourenvname python=3.7 anaconda
 
 ```
 git clone https://github.com/salesforce/BLIP
+```
 
 ```
-%cd BLIP
-
+cd BLIP
+```
+```
 cp 
+```
