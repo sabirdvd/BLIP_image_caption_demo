@@ -15,3 +15,9 @@ cp caption_Inference_L.py  /BLIP
 cd BLIP
 python caption_Inference_L.py
 ```
+
+please refer to the original work for main information
+
+```
+https://github.com/salesforce/BLIP
+```
