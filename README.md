@@ -1,6 +1,7 @@
 # BLIP_image_caption_demo
 BLIP image caption demo [paper](https://arxiv.org/abs/2201.12086) and [demo](https://colab.research.google.com/github/salesforce/BLIP/blob/main/demo.ipynb)
 
+For image captioning only, that runs on your local machine with multiple images 
 ```
 conda create -n BLIP_demo python=3.7 anaconda
 conda activate BLIP_demo
