@@ -58,7 +58,7 @@ for image in filenames:
           caption = model.generate(image, sample=False, num_beams=3, max_length=20, min_length=5)
           print(caption[0])
   except:
-      caption = '#gary_images'
+      caption = 'gary_images'
     # nucleus sampling
     # caption = model.generate(image, sample=True, top_p=0.9, max_length=20, min_length=5) 
   print('caption: '+caption[0])
