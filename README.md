@@ -2,7 +2,7 @@
 BLIP image caption demo
 
 ```
-conda create -n yourenvname python=3.7 anaconda
+conda create -n BLIP_demo python=3.7 anaconda
 ```
 
 ```
