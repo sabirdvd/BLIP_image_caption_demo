@@ -14,27 +14,8 @@ import sys
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 def load_demo_image(image_size,device, input_image):
-    #img_url = 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/demo.jpg' 
-    #image = Image.open("/content/Unknown-2.png")
-    #img = '/content/COCO_val2014_000000000042.jpg'
-    #filenames = glob.glob("/content/mage_karpathy_test_images/*.jpg")
-    
-    #filenames = glob.glob("/content/mage_karpathy_test_images/*.jpg")
-    
-    #filenames = glob.glob("/content/*.jpg")
-    #filenames.sort()
-    #for image in filenames:
-    #  raw_image = Image.open(image)
     
     raw_image = Image.open(input_image)
-
-    #rawData = img.tobytes()
-    #raw_image = Image.open(requests.get(img_url, stream=True).raw).convert('RGB')   
-    #raw_image = Image.open(img)
-    #img=mpimg.imread('/content/COCO_val2014_000000000042.jpg')
-
-    #raw_image = Image.frombytes('RGB', image_size, rawData)
-
     w,h = raw_image.size
     #display(raw_image.resize((w//5,h//5)))
     
@@ -60,9 +41,7 @@ model = blip_decoder(pretrained=model_url, image_size=image_size, vit='large')
 #model = blip_decoder(pretrained=model_url, image_size=image_size, vit='base')
 
 
-
-#filenames = glob.glob("/Users/asabir/Desktop/me/image_karpathy_test_images/*.jpg")
-#filenames = glob.glob("/content/image_karpathy_test_images/*.jpg")
+# all images 
 filenames = glob.glob("/Users/asabir/Desktop/me/image_karpathy_test_images/*.jpg")
 #filenames = glob.glob("/Users/asabir/Desktop/me/COCO_val2014_000000039068.jpg")
 
@@ -71,9 +50,6 @@ for image in filenames:
   input_image = Image.open(image)
   try:
       image = load_demo_image(image_size=image_size, device=device, input_image=image)
-  #model_url = 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_capfilt_large.pth'
-  #model_url = 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_capfilt_large.pth'
-  #model = blip_decoder(pretrained=model_url, image_size=image_size, vit='base')  
   
       model.eval()
       model = model.to(device)
@@ -82,10 +58,7 @@ for image in filenames:
           caption = model.generate(image, sample=False, num_beams=3, max_length=20, min_length=5)
           print(caption[0])
   except:
-      caption = 'gary_images'
-
-      #caption[0] = 'gary_images'
-    
+      caption = '#gary_images'
     # nucleus sampling
     # caption = model.generate(image, sample=True, top_p=0.9, max_length=20, min_length=5) 
   print('caption: '+caption[0])
