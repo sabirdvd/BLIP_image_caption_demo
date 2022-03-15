@@ -3,6 +3,7 @@ BLIP image caption demo
 
 ```
 conda create -n BLIP_demo python=3.7 anaconda
+conda activate BLIP_demo
 ```
 
 ```
