@@ -15,10 +15,6 @@ cp caption_Inference_L.py ../
 python caption_Inference_L.py
 ```
 
-```
-cd BLIP
-```
-
 please refer to the original work for main information
 
 ```
