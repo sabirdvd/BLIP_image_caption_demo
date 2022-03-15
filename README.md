@@ -9,12 +9,14 @@ conda activate BLIP_demo
 ```
 git clone https://github.com/salesforce/BLIP
 pip install -r requirements.txt
-cp caption_Inference_L.py  /BLIP
+
+git clone https://github.com/sabirdvd/BLIP_image_caption_demo.git
+cp caption_Inference_L.py ../
+python caption_Inference_L.py
 ```
 
 ```
 cd BLIP
-python caption_Inference_L.py
 ```
 
 please refer to the original work for main information
