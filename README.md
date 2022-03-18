@@ -15,6 +15,10 @@ git clone https://github.com/sabirdvd/BLIP_image_caption_demo.git
 cp caption_Inference_L.py ../
 python caption_Inference_L.py
 ```
+or just refer to the notebook 
+```
+BLIP_demo_muti_images.ipynb
+```
 
 please refer to the original work for main information
 
