@@ -40,7 +40,7 @@ python coco_eval_run.py
 
 
 
-please refer to the original work for main information
+Please refer to the original work for main information
 
 ```
 https://github.com/salesforce/BLIP
