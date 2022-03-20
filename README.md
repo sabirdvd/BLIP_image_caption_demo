@@ -28,6 +28,12 @@ Result on COCO Caption Karpathy test (my run)
 | BLIP_ViT-L   | 0.797  | 0.649 | 0.514 | 0.403 | 0.311 | 1.365 | 0.243 |
 
 
+Run youself 
+
+```
+python coco_eval_example.py
+
+```
 
 
 please refer to the original work for main information
