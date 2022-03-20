@@ -27,7 +27,7 @@ For COCO Caption Karpathy test (my run BLIP_ViT-L.json)
 Download COCO-caption metrics from [here](https://github.com/salaniz/pycocoevalcap)
 
 ```
-python coco_eval_example.py
+python coco_eval_run.py
 ```
 
 
