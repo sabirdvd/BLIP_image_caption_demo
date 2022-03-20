@@ -22,7 +22,7 @@ BLIP_demo_muti_images.ipynb
 
 
 
-For COCO Caption Karpathy test run (my run BLIP_ViT-L.json) 
+For COCO Caption Karpathy test (my run BLIP_ViT-L.json) 
 
 Download COCO-caption metrics from [here](https://github.com/salaniz/pycocoevalcap)
 
