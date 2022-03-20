@@ -20,6 +20,16 @@ or just refer to the notebook
 BLIP_demo_muti_images.ipynb
 ```
 
+Result on COCO Caption Karpathy test (my run) 
+
+
+| model   | B1|    B2 |    B3 |    B4 |     M |     C |     S |
+| ------------- | ------------- |  ------------- | ------------- | ------------- | ------------- | ------------- | ------------ |
+| BLIP_ViT-L   | 0.797  | 0.649 | 0.514 | 0.403 | 0.311 | 1.365 | 0.243 |
+
+
+
+
 please refer to the original work for main information
 
 ```
