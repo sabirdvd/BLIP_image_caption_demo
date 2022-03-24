@@ -16,7 +16,7 @@ cp caption_Inference_L.py ../
 python caption_Inference_L.py
 ```
 
-For COCO Caption Karpathy test (my run BLIP_ViT-L.json) 
+For COCO Caption Karpathy test (my run) 
 
 Download COCO-caption metrics from [here](https://github.com/salaniz/pycocoevalcap)
 
