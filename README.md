@@ -1,7 +1,7 @@
 # BLIP image caption demo
 BLIP image caption demo [paper](https://arxiv.org/abs/2201.12086) and [demo](https://colab.research.google.com/github/salesforce/BLIP/blob/main/demo.ipynb)
 
-For image captioning only with the **Larger model** with the two proposed caption generation methods (beam search and nucleus sampling), that runs on your local machine with multiple images [Colab](https://colab.research.google.com/drive/1RNE_nxNrcDcSHSEiBLmMBmC40w9w_yE4?usp=sharing) 
+For image captioning only with the **Larger model** with the two proposed caption generation methods (beam search and nucleus sampling), that runs on your local machine with multiple images or [Colab](https://colab.research.google.com/drive/1RNE_nxNrcDcSHSEiBLmMBmC40w9w_yE4?usp=sharing) 
 ```
 conda create -n BLIP_demo python=3.7 anaconda
 conda activate BLIP_demo
@@ -15,12 +15,6 @@ git clone https://github.com/sabirdvd/BLIP_image_caption_demo.git
 cp caption_Inference_L.py ../
 python caption_Inference_L.py
 ```
-or just refer to the notebook 
-```
-BLIP_demo_muti_images.ipynb
-```
-
-
 
 For COCO Caption Karpathy test (my run BLIP_ViT-L.json) 
 
