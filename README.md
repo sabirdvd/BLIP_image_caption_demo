@@ -2,8 +2,13 @@
 
 Please refer to this [medium blog post](https://medium.com/@iee_53136/paper-summary-blip-bootstrapping-language-image-pre-training-for-unified-vision-language-c1df6f6c9166) for more detail.
 
-BLIP image caption demo [paper](https://arxiv.org/abs/2201.12086) and [demo](https://colab.research.google.com/github/salesforce/BLIP/blob/main/demo.ipynb)
+[![arXiv](https://img.shields.io/badge/arXiv-2201.12086-b31b1b.svg)](https://arxiv.org/abs/2201.12086)
 
+
+BLIP image caption demo and [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/salesforce/BLIP/blob/main/demo.ipynb)
+
+
+<!-- [demo]<!(https://colab.research.google.com/github/salesforce/BLIP/blob/main/demo.ipynb) -->
 
 
 For image captioning only with the **Larger model** with the two proposed caption generation methods (beam search and nucleus sampling), that runs on your local machine with multiple images or [Colab](https://colab.research.google.com/drive/1RNE_nxNrcDcSHSEiBLmMBmC40w9w_yE4?usp=sharing) 
