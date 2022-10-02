@@ -2,7 +2,7 @@
 
 Please refer to this [medium blog post](https://medium.com/@iee_53136/paper-summary-blip-bootstrapping-language-image-pre-training-for-unified-vision-language-c1df6f6c9166) for more detail.
 
-[![arXiv](https://img.shields.io/badge/arXiv-2201.12086-b31b1b.svg)](https://arxiv.org/abs/2201.12086) BLIP image caption demo and [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/salesforce/BLIP/blob/main/demo.ipynb)
+[![arXiv](https://img.shields.io/badge/arXiv-2201.12086-b31b1b.svg)](https://arxiv.org/abs/2201.12086) [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/salesforce/BLIP/blob/main/demo.ipynb)
 
 
 
