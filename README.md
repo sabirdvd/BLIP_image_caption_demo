@@ -11,7 +11,23 @@ Please refer to this [medium blog post](https://medium.com/@iee_53136/paper-summ
 <!-- [demo]<!(https://colab.research.google.com/github/salesforce/BLIP/blob/main/demo.ipynb) -->
 
 
-For image captioning only with the **Larger model** with the two proposed caption generation methods (beam search and nucleus sampling), that runs on your local machine with multiple images or [Colab](https://colab.research.google.com/drive/1RNE_nxNrcDcSHSEiBLmMBmC40w9w_yE4?usp=sharing) 
+For image captioning only with the **Larger model** with the two proposed caption generation methods (beam search and nucleus sampling), that runs on your local machine with multiple images or 
+
+<!--
+
+[Colab](https://colab.research.google.com/drive/1RNE_nxNrcDcSHSEiBLmMBmC40w9w_yE4?usp=sharing) 
+ -->
+ 
+
+
+
+ [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RNE_nxNrcDcSHSEiBLmMBmC40w9w_yE4?usp=sharing)
+ 
+ 
+
+
+
+
 ```
 conda create -n BLIP_demo python=3.7 anaconda
 conda activate BLIP_demo
