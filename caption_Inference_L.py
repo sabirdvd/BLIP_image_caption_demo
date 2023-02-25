@@ -1,3 +1,4 @@
+# code from https://github.com/salesforce/BLIP
 from PIL import Image
 import requests
 import torch
