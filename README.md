@@ -44,6 +44,13 @@ cp caption_Inference_L.py ../
 python caption_Inference_L.py
 ```
 
+For BLIP 2 
+
+```
+python 
+
+```
+
 For COCO Caption Karpathy test (image caption dataset COCO benchmark) (my run using the L_check_point) 
 
 Download COCO-caption metrics from [here](https://github.com/salaniz/pycocoevalcap)
