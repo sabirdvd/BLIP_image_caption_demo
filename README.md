@@ -53,7 +53,7 @@ pip install salesforce-lavis
 BILP-2_caption_Inference_2.7B.py
 
 ```
-Note that BLIP-2 only runs on A100 GPU, pls find the output 
+Note that BLIP-2  (you can't run it on Colab) only runs on A100 GPU, pls find the output ``BLIP_2_2.7b.json`` 
 
 For COCO Caption Karpathy test (image caption dataset COCO benchmark) (my run using the L_check_point) 
 
