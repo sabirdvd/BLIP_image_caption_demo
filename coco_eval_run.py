@@ -6,7 +6,7 @@ annotation_file = 'captions_val2014.json'
 results_file = 'BLIP_ViT-L.json'
 
 
-# Createxz coco object and coco_result object
+# create coco object and coco_result object
 coco = COCO(annotation_file)
 coco_result = coco.loadRes(results_file)
 
